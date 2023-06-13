@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package bitsshop;
+package Main;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -16,7 +16,7 @@ import javafx.scene.control.Label;
  *
  * @author Jhonatan Cantero
  */
-public class ControllerController implements Initializable {
+public class UserController implements Initializable {
     
     @FXML
     private Label label;
