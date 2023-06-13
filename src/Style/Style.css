@@ -1,0 +1,17 @@
+.pane1{
+    -fx-background-color: #ECECEC;
+    -fx-background-radius: 80px;
+    
+}
+
+.contaner{
+    -fx-background-color: #f6f6f6;
+    -fx-background-radius: 30px;
+}
+
+.user{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 80px;
+    
+    
+}
