@@ -1,0 +1,26 @@
+.pane1{
+    -fx-background-color: #ECECEC;
+    -fx-background-radius: 80px;
+    
+}
+
+.contaner{
+    -fx-background-color: #f6f6f6;
+    -fx-background-radius: 30px;
+}
+
+.user{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 80px;
+    -fx-border-radius: 80px;
+    -fx-border-width: 1px;
+    -fx-border-color: #707070;
+}
+
+.button{
+    -fx-background-color: #FF4040;
+    -fx-border-radius: 80px;
+    -fx-background-radius: 80px;
+    -fx-border-width: 1px;
+    -fx-border-color: #707070;
+}

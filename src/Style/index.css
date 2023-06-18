@@ -1,0 +1,47 @@
+.back{
+    -fx-background-color: #FEFEFE;
+}
+
+.bar1{
+    -fx-background-color:#ECECEC;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-color: #333333;
+}
+
+.busq{
+    -fx-border-color: #ECECEC;
+    -fx-background-color: white;
+    -fx-border-radius: 100px;
+    -fx-background-radius: 20px;
+    -fx-border-color: #707070;
+}
+
+.cata{
+    -fx-background-color:#ECECEC;
+    -fx-background-radius: 50px 50px 0px 0px / 50px 50px 0px 0px;
+}
+
+.prod{
+    -fx-background-radius: 30px;
+    -fx-border-width: 0.5px;
+    -fx-border-color: #707070;
+    -fx-background-color: white;
+    -fx-border-radius: 30px;
+}
+
+.mv{
+     -fx-background-color: #FF4040;
+     -fx-border-radius: 5px;
+     -fx-background-radius: 5px;
+    -fx-border-width: 0.5px;
+    -fx-border-color: #707070;
+}
+
+.button{
+    -fx-background-color: #FF4040;
+     -fx-border-radius: 10px;
+     -fx-background-radius: 10px;
+    -fx-border-width: 0.5px;
+    -fx-border-color: #707070;
+}
