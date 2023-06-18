@@ -9,7 +9,7 @@ import javafx.scene.control.Label;
 
 /**
  *
- * @author Jhonatan Cantero
+ * @author Jhonatan
  */
 public class UserController implements Initializable {
     
