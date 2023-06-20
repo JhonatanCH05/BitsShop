@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="461.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="461.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.UserController">
    <children>
       <Pane id="pane1" layoutX="26.0" layoutY="25.0" prefHeight="508.0" prefWidth="409.0" styleClass="pane1" stylesheets="@../Style/Style.css">
          <children>
@@ -25,7 +25,7 @@
                         <Image url="@../Image/Logo2.png" />
                      </image>
                   </ImageView>
-                  <TextField id="user" prefHeight="25.0" prefWidth="290.0" promptText="Usuario..." scaleX="0.73" styleClass="user">
+                  <TextField id="user" fx:id="Usuario" prefHeight="25.0" prefWidth="290.0" promptText="Usuario..." scaleX="0.73" styleClass="user">
                      <VBox.margin>
                         <Insets top="30.0" />
                      </VBox.margin>
@@ -33,7 +33,7 @@
                         <Font name="Calibri Bold" size="20.0" />
                      </font>
                   </TextField>
-                  <PasswordField promptText="Contraseña..." scaleX="0.73" styleClass="user">
+                  <PasswordField fx:id="Contraseña" promptText="Contraseña..." scaleX="0.73" styleClass="user">
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
@@ -44,7 +44,7 @@
                         <Font name="Calibri Bold" size="20.0" />
                      </font>
                   </PasswordField>
-                  <Button id="button" mnemonicParsing="false" prefHeight="25.0" prefWidth="127.0" text="Iniciar sesión" textFill="WHITE">
+                  <Button id="button" fx:id="btnInicio" mnemonicParsing="false" onAction="#iniciarSesión" prefHeight="25.0" prefWidth="127.0" text="Iniciar sesión" textFill="WHITE">
                      <VBox.margin>
                         <Insets top="20.0" />
                      </VBox.margin>

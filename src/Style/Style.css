@@ -1,7 +1,7 @@
 .pane1{
     -fx-background-color: #ECECEC;
     -fx-background-radius: 80px;
-    
+
 }
 
 .contaner{
@@ -23,4 +23,51 @@
     -fx-background-radius: 80px;
     -fx-border-width: 1px;
     -fx-border-color: #707070;
+}
+
+.barra{
+    -fx-background-color: #ECECEC;
+    -fx-border-radius: 0 0 20 20;
+    -fx-background-radius: 0 0 20 20;
+    -fx-border-width: 0.5px;
+    -fx-border-color: #707070;
+}
+
+.grid{
+    -fx-background-color: #ffffff;
+}
+
+.p{
+    -fx-background-color: #ECECEC;
+    -fx-background-radius: 40px;
+}
+
+.image{
+    -fx-background-color: #F6F6F6;  
+    -fx-background-radius: 40px;
+}
+
+.nom{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 80px;
+    -fx-border-radius: 80px;
+    -fx-border-width: 0.5px;
+    -fx-border-color: #707070;
+}
+
+.total{
+    -fx-background-color: #286291;
+    -fx-background-radius: 80px;   
+}
+
+.comprar{
+    -fx-background-color: #FF4040;
+    -fx-border-radius: 80px;
+    -fx-background-radius: 80px;
+    -fx-border-width: 1px;
+    -fx-border-color: #707070;
+}
+
+.hbx{
+    -fx-background-color: #ffffff; 
 }

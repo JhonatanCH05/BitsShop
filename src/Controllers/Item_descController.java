@@ -5,7 +5,6 @@
  */
 package Controllers;
 
-
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.Initializable;
@@ -15,14 +14,14 @@ import javafx.fxml.Initializable;
  *
  * @author Luis M.
  */
-public class IndexController implements Initializable {
+public class Item_descController implements Initializable {
 
-    
- 
-
+    /**
+     * Initializes the controller class.
+     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }
-
+    }    
+    
 }

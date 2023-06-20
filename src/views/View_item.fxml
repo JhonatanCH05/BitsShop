@@ -2,7 +2,6 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.DropShadow?>
@@ -13,13 +12,14 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="back" prefHeight="473.0" prefWidth="718.0" styleClass="back" stylesheets="@../Style/index.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.IndexController">
+<AnchorPane id="back" prefHeight="473.0" prefWidth="718.0" styleClass="back" stylesheets="@../Style/view_item.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.View_itemController">
    <children>
-      <HBox id="bar1" fillHeight="false" layoutY="-35.0" prefHeight="106.0" prefWidth="718.0" styleClass="bar1" stylesheets="@../Style/index.css">
+      <HBox id="bar1" fillHeight="false" layoutY="-35.0" prefHeight="106.0" prefWidth="718.0" styleClass="bar1" stylesheets="@../Style/view_item.css">
          <children>
             <ImageView fitHeight="73.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
                <HBox.margin>
@@ -29,7 +29,7 @@
                   <Image url="@../Image/logo1.png" />
                </image>
             </ImageView>
-            <TextField id="busq" focusTraversable="false" prefHeight="18.0" prefWidth="247.0" promptText="Buscar..." styleClass="busq" stylesheets="@../Style/index.css">
+            <TextField id="busq" prefHeight="18.0" prefWidth="247.0" promptText="Buscar..." styleClass="busq" stylesheets="@../Style/view_item.css">
                <HBox.margin>
                   <Insets left="50.0" top="55.0" />
                </HBox.margin>
@@ -77,9 +77,9 @@
             <Insets bottom="-20.0" />
          </padding>
       </HBox>
-      <VBox id="cata" layoutX="18.0" layoutY="100.0" prefHeight="419.0" prefWidth="681.0" styleClass="cata" stylesheets="@../Style/index.css">
+      <VBox id="cata" layoutX="273.0" layoutY="100.0" prefHeight="400.0" prefWidth="426.0" styleClass="cata" stylesheets="@../Style/view_item.css">
          <children>
-            <HBox id="prod1" prefHeight="179.0" prefWidth="605.0" styleClass="prod" stylesheets="@../Style/index.css">
+            <HBox id="prod" prefHeight="179.0" prefWidth="605.0" styleClass="prod" stylesheets="@../Style/view_item.css">
                <VBox.margin>
                   <Insets left="20.0" right="20.0" top="20.0" />
                </VBox.margin>
@@ -102,11 +102,11 @@
                         <Insets left="15.0" top="10.0" />
                      </HBox.margin>
                   </ImageView>
-                  <VBox prefHeight="153.0" prefWidth="295.0">
+                  <VBox prefHeight="167.0" prefWidth="391.0">
                      <children>
-                        <Label prefHeight="54.0" prefWidth="279.0" text="Sony PlayStation 5 825GB Horizon Forbidden West Bundle color blanco y negro" wrapText="true">
+                        <Label prefHeight="59.0" prefWidth="210.0" text="Sony PlayStation 5 825GB Horizon Forbidden West Bundle color blanco y negro" wrapText="true">
                            <font>
-                              <Font name="Calibri" size="15.0" />
+                              <Font name="Calibri" size="13.0" />
                            </font>
                         </Label>
                         <Label layoutX="10.0" layoutY="10.0" prefHeight="28.0" prefWidth="113.0" text="Antes: $3.794.900" textFill="#8a8a8a" wrapText="true">
@@ -132,23 +132,10 @@
                         <Insets left="10.0" top="10.0" />
                      </HBox.margin>
                   </VBox>
-                  <VBox alignment="CENTER_LEFT" prefHeight="153.0" prefWidth="183.0">
-                     <children>
-                        <Button id="button" mnemonicParsing="false" prefHeight="32.0" prefWidth="153.0" stylesheets="@../Style/index.css" text="Comprar ahora" textFill="WHITE">
-                           <VBox.margin>
-                              <Insets bottom="10.0" />
-                           </VBox.margin>
-                        </Button>
-                        <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="153.0" text="Agregar al carrito" textFill="WHITE">
-                           <VBox.margin>
-                              <Insets top="10.0" />
-                           </VBox.margin>
-                        </Button>
-                     </children>
-                  </VBox>
+                  <VBox alignment="CENTER_LEFT" prefHeight="153.0" prefWidth="183.0" />
                </children>
             </HBox>
-            <HBox id="prod1" layoutX="30.0" layoutY="30.0" prefHeight="179.0" prefWidth="605.0" styleClass="prod" stylesheets="@../Style/index.css">
+            <HBox id="prod2" layoutX="30.0" layoutY="30.0" prefHeight="179.0" prefWidth="605.0" styleClass="prod" stylesheets="@../Style/view_item.css">
                <children>
                   <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -168,11 +155,11 @@
                         <Insets top="10.0" />
                      </HBox.margin>
                   </ImageView>
-                  <VBox prefHeight="153.0" prefWidth="295.0">
+                  <VBox prefHeight="167.0" prefWidth="393.0">
                      <children>
-                        <Label prefHeight="64.0" prefWidth="265.0" text="ASUS ROG Strix Scar 15 (2022),NVIDIA GeForce RTX 3080 Ti, Intel Core i9 12900H, DDR5 de 32 GB, SSD de 1 TB" wrapText="true">
+                        <Label prefHeight="77.0" prefWidth="193.0" text="ASUS ROG Strix Scar 15 (2022),NVIDIA GeForce RTX 3080 Ti, Intel Core i9 12900H, DDR5 de 32 GB, SSD de 1 TB" wrapText="true">
                            <font>
-                              <Font name="Calibri" size="15.0" />
+                              <Font name="Calibri" size="13.0" />
                            </font>
                         </Label>
                         <Label layoutX="10.0" layoutY="10.0" prefHeight="35.0" prefWidth="113.0" text="Antes: $9.794.900" textFill="#8a8a8a" wrapText="true">
@@ -180,7 +167,7 @@
                               <Font name="Calibri" size="13.0" />
                            </font>
                         </Label>
-                        <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="64.0" prefHeight="34.0" prefWidth="194.0" text="AHORA: $8.665.894" wrapText="true">
+                        <Label alignment="TOP_LEFT" layoutX="10.0" layoutY="64.0" prefHeight="24.0" prefWidth="193.0" text="AHORA: $8.665.894" wrapText="true">
                            <font>
                               <Font name="Calibri" size="18.0" />
                            </font>
@@ -198,20 +185,7 @@
                         <Insets left="10.0" top="10.0" />
                      </HBox.margin>
                   </VBox>
-                  <VBox alignment="CENTER_LEFT" prefHeight="153.0" prefWidth="183.0">
-                     <children>
-                        <Button id="button" mnemonicParsing="false" prefHeight="32.0" prefWidth="153.0" stylesheets="@../Style/index.css" text="Comprar ahora" textFill="WHITE">
-                           <VBox.margin>
-                              <Insets bottom="10.0" />
-                           </VBox.margin>
-                        </Button>
-                        <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="153.0" text="Agregar al carrito" textFill="WHITE">
-                           <VBox.margin>
-                              <Insets top="10.0" />
-                           </VBox.margin>
-                        </Button>
-                     </children>
-                  </VBox>
+                  <VBox alignment="CENTER_LEFT" prefHeight="153.0" prefWidth="183.0" />
                </children>
                <VBox.margin>
                   <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
@@ -219,5 +193,10 @@
             </HBox>
          </children>
       </VBox>
+      <Pane id="desc" layoutX="14.0" layoutY="102.0" prefHeight="400.0" prefWidth="247.0" styleClass="desc" stylesheets="@../Style/view_item.css">
+         <children>
+            <Pane id="line_desc" layoutX="13.0" layoutY="11.0" prefHeight="379.0" prefWidth="221.0" styleClass="line_desc" stylesheets="@../Style/view_item.css" />
+         </children>
+      </Pane>
    </children>
 </AnchorPane>

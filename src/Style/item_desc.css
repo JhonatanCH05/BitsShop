@@ -1,0 +1,26 @@
+.desc{
+    -fx-background-radius: 30px;
+}
+
+.prop{
+    -fx-border-radius: 30px;
+    -fx-border-color: #707070;
+    -fx-background-color: white;
+    -fx-background-radius: 30px;
+}
+
+.mv{
+    -fx-background-color: #FF4040;
+     -fx-border-radius: 20px;
+     -fx-background-radius: 20px;
+    -fx-border-width: 0.5px;
+    -fx-border-color: #707070;
+}
+
+.button{
+    -fx-background-color: #FF4040;
+     -fx-border-radius: 10px;
+     -fx-background-radius: 10px;
+    -fx-border-width: 0.5px;
+    -fx-border-color: #707070;
+}

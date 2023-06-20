@@ -19,7 +19,7 @@ public class BitsShop extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Controller.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/views/User.fxml"));
         
         Scene scene = new Scene(root);
         
