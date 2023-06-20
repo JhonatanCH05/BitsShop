@@ -1,0 +1,8 @@
+.product{
+    -fx-background-color: #F6F6F6;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-background-image: url("../Image/Logo2.png");
+    -fx-background-size: 200px;
+    -fx-background-repeat: no-repeat;
+}
